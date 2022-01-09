@@ -1,1 +1,137 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Chat &middot; Github</title>
+  <meta name="description" content="github chat for projects & workgroups">
+  <meta name="author" content="etconsilium@github.com">
+  
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/skeleton.css">
+  <link rel="stylesheet" href="css/skeleton-add.css">
+  <link rel="stylesheet" href="css/github-prettify-theme.css">
+  <link rel="stylesheet" href="css/last.css">
+</head><body class="prettyprint">
+<!--
+</head><body>
+</head><body class="prettyprint" data-theme="light">
+  <div class="eleven columns">Eleven</div>
+  <h1>git chat</h1>
+<div class="row" style="border:2px solid blue;">
+-->
 
+<div class="row">
+  <div class="four columns"><h1 class="title">git chat</h1></div>
+  <div class="eight columns" style="vertical-align: bottom;">
+    <span>&nbsp;</span>
+    <form id="gh_enter_form" onsubmit="enter_github(this);return false;">
+      <div class="row">
+        <div class="four columns">
+          <!-- <label for="gh_login">github login</label> -->
+          <input class="u-full-width" type="text" placeholder="github login" id="gh_login" required>
+        </div>
+        <div class="four columns">
+          <!-- <label for="gh_token">github token</label> -->
+          <input class="u-full-width" type="text" placeholder="github token" id="gh_token" required>
+        </div>
+        <div class="four columns">
+          <!-- <label for="gh_submit"> &nbsp; </label> -->
+          <input type="submit" value="enter" id="gh_submit">
+        </div>
+      </div>
+    </form>
+  </div>
+</div>
+
+
+<div class="navbar hide">
+  <div class="container">
+    <ul class="navbar-list">
+      <li class="navbar-item"><a class="navbar-link" href="#intro">Intro</a></li>
+      <li class="navbar-item">
+        <a class="navbar-link" href="#" data-popover="#codeNavPopover">Code</a>
+        <div id="codeNavPopover" class="popover">
+          <ul class="popover-list">
+            <li class="popover-item">
+              <a class="popover-link" href="#grid">Grid</a>
+            </li>
+            <li class="popover-item">
+              <a class="popover-link" href="#typography">Typography</a>
+            </li>
+            <li class="popover-item">
+              <a class="popover-link" href="#buttons">Buttons</a>
+            </li>
+            <li class="popover-item">
+              <a class="popover-link" href="#forms">Forms</a>
+            </li>
+            <li class="popover-item">
+              <a class="popover-link" href="#lists">Lists</a>
+            </li>
+            <li class="popover-item">
+              <a class="popover-link" href="#code">Code</a>
+            </li>
+            <li class="popover-item">
+              <a class="popover-link" href="#tables">Tables</a>
+            </li>
+            <li class="popover-item">
+              <a class="popover-link" href="#queries">Queries</a>
+            </li>
+            <li class="popover-item">
+              <a class="popover-link" href="#utilities">Utilities</a>
+            </li>
+          </ul>
+        </div>
+      </li>
+      <li class="navbar-item"><a class="navbar-link" href="#examples">Examples</a></li>
+      <li class="navbar-item">
+        <a class="navbar-link" href="#" data-popover="#moreNavPopover">More</a>
+        <div id="moreNavPopover" class="popover">
+          <ul class="popover-list">
+            <li class="popover-item">
+              <a class="popover-link" href="https://github.com/dhg/Skeleton">On Github</a>
+            </li>
+            <li class="popover-item">
+              <a class="popover-link" href="https://github.com/dhg/Skeleton#browser-support">Browsers</a>
+            </li>
+            <li class="popover-item">
+              <a class="popover-link" href="https://github.com/dhg/Skeleton#license">License</a>
+            </li>
+            <li class="popover-item">
+              <a class="popover-link" href="https://github.com/dhg/Skeleton#extensions">Extensions</a>
+            </li>
+            <li class="popover-item">
+              <a class="popover-link" href="https://github.com/dhg/Skeleton/releases">Versions</a>
+            </li>
+            <li class="popover-item">
+              <a class="popover-link" href="https://github.com/dhg/Skeleton#colophon">Colophon</a>
+            </li>
+          </ul>
+        </div>
+      </li>
+    </ul>
+  </div>
+</div><!-- /navbar -->
+    
+<!--
+<main class="container-fluid">
+-->
+
+<main style="border:2px solid red;" class="u-full-width">
+<div id="xmp">hi there</div>
+</main>
+
+<!--
+<script src="js/selector.js">lika jquery</script>
+-->
+<footer></footer>
+</body>
+<script src="js/chibi.js">dom manipulate, post\get req</script>
+<script src="js/fetch.js">ajax actions from github team</script>
+<script src="js/store.legacy.min.js">cross-browser store engine</script>
+<script src="js/gitchat.js">usersripts</script>
+<script>
+</script>
+</html>
+<!--
+-->
