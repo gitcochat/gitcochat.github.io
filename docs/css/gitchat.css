@@ -1,0 +1,22 @@
+html, body, * {
+  background: #fff;
+  font-family: 'Open Sans', 'Bitstream Vera Sans', 'DejaVu Sans', 'Helvetica Nuvo', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12pt;
+/*
+  font-size: 1.2rem;
+  padding: 2.5rem 3rem;
+*/
+  -webkit-font-smoothing: antialiased;
+}
+body {
+  padding: 1.25rem 2rem;
+}
+:root {
+  --background: #fff;
+  --font-family: 'Open Sans', 'Bitstream Vera Sans', 'DejaVu Sans', 'Helvetica Nuvo', sans-serif;
+  --font-style: normal;
+  --font-weight: 400;
+  --font-size: 12pt;
+}
